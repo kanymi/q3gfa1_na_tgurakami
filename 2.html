@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question2</title>
+</head>
+<body>
+    <h1 id="result"></h1>
+    <script>
+        var fname = prompt("Input your first name: ", "Karen");
+        var lname = prompt("Input your last name: ", "San Pablo");
+        var byear = prompt("Input your birth year: ", "1980");
+
+        var age = 2024 - byear;
+        document.getElementById("result").innerHTML = "Hello " + fname + " " + lname + "! How does it feel being a " + age + " year old?";
+    </script>
+</body>
+</html>
